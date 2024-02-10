@@ -2,17 +2,17 @@ $(document).ready(function(){
     $("#registrationForm").submit(function(event){
         event.preventDefault();
         if(validateForm()) {
+            var title = $("#title").val();
             var customerId = generateCustomerId();
             var customerName = $("#customerName").val();
             var customerEmail = $("#email").val();
-            var customerMobile = $("#countryCode").val() + $("#mobile").val();
-            var title = $("#title").val();
+            var customerMobile = $("#countryCode").val() + $("#mobile").val();            
 
+            localStorage.setItem('title',title)
             localStorage.setItem('customerId', customerId); 
             localStorage.setItem('customerName', customerName);
             localStorage.setItem('customerEmail', customerEmail);
             localStorage.setItem('customerMobile', customerMobile);
-            localStorage.setItem('title',title)
 
             window.location.href = 'registration_success.html';
         }
@@ -31,7 +31,7 @@ $(document).ready(function(){
             alert("Passwords do not match.");
             return false;
         }
-
+        localStorage.setItem('password', password);
         return true;
     }
 
