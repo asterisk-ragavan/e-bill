@@ -4,3 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var successMessage = document.getElementById('successMessage');
     successMessage.innerHTML = `Complaint registration successful! Your complaint ID is: <strong>${uniqueComplaintId}</strong>`;
 });
+
+$("#logoutBtn").click(function() {
+    window.location.href = "login.html";
+});

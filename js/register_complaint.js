@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "complaint_success.html";
     });
 
+    $("#logoutBtn").click(function() {
+        window.location.href = "login.html";
+    });
+
     // Event listener for Cancel button
     document.getElementById("cancelBtn").addEventListener("click", function() {
         window.location.href = "home.html";
