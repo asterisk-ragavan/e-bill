@@ -49,6 +49,10 @@ for (var i = currentYear; i <= currentYear + 10; i++) {
     yearSelect.appendChild(option);
 }
 
+$("#logoutBtn").click(function() {
+    window.location.href = "login.html";
+});
+
 // Event listener for form submission
 document.getElementById('creditCardForm').addEventListener('submit', function(event) {
     event.preventDefault();

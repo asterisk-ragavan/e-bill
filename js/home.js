@@ -11,10 +11,6 @@ $(document).ready(function(){
         <p><strong>Mobile:</strong> ${customerMobile}</p>
     `);
 
-    $("#username").html(`
-        <p> <strong> Welcome ${customerName}</strong></p>
-    `);
-
     $("#logoutBtn").click(function() {
         window.location.href = "login.html";
     });

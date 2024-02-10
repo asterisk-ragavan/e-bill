@@ -25,6 +25,10 @@ document.addEventListener("DOMContentLoaded", function() {
         window.print();
     });
 
+    $("#logoutBtn").click(function() {
+        window.location.href = "login.html";
+    });
+
     // Event listener for download button
     document.getElementById('downloadBtn').addEventListener('click', function() {
         var receiptContent = paymentDetails.innerHTML;
