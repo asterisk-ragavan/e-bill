@@ -8,6 +8,10 @@ $(document).ready(function() {
         $('#totalPayable').val('$' + totalPayable.toFixed(2));
     });
 
+    $("#logoutBtn").click(function() {
+        window.location.href = "login.html";
+    });
+
     $('#makePaymentBtn').click(function() {
         var modeOfPayment = $('#modeOfPayment').val();
         var totalPayable = $('#totalPayable').val();
