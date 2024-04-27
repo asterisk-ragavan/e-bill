@@ -1,1 +1,98 @@
+#content{
+    background-color:#bee4bf;
+    border-radius:8px;
+    padding:20px;
+    max-width:800px;
+    width:100%;
+    box-sizeing:border-box;
+    margin:auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
 
+#navbar{
+    background-image: linear-gradient(15deg, #ffe956 0%, rgb(206 199 246 / 85%) 100%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-end-end-radius:8px;
+    height:65px;
+}
+
+#navbarSupportedContent a:hover{
+    border:1px solid #00000000;
+    border-radius:16px;
+    margin-right:10px;
+    background-color:#caed8da1;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
+
+#sucess_alert {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+
+}
+
+#navbarSupportedContent a{
+    border:1px solid #00000000;
+    border-radius:16px;
+    margin-right:10px;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 1px 4px;
+    font-weight:500;
+    color:#2d2c2c;
+}
+
+select {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.15);
+}
+
+.FORM_c_s {
+    background-color:#fff;
+    border-radius:8px;
+    padding:10px;
+    box-sizeing:border-box;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.15);
+}
+
+.imgs {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-70px;
+
+
+}
+.image_c {
+    border-radius:20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 );
+    transform:scale(0.8);
+    width:100%;
+}
+
+.logo {
+    height:70px;
+}
+
+.qr {
+    display:flex;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+}
+
+.qr img{
+    border-radius:15px;
+    height:300px;
+    box-shadow:0 3px 10px rgb(0 0 0 /0.2);
+}
+body{
+    background-color:#e2ebff
+}
+
+input{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.15);
+}
+
+button{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
